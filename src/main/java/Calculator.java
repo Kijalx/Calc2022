@@ -26,7 +26,7 @@ public class Calculator {
         int secondNumber = inputs.nextInt();
 
         int total = firstNumber + secondNumber;
-        System.out.println("The total multiplication is: " + total);
+        System.out.println("The total add is: " + total);
     }
 }
 
