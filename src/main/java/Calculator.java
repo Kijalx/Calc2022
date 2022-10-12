@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         multiply();
+        delete();
     }
 
     public static void multiply() {
@@ -27,6 +28,18 @@ public class Calculator {
 
         int total = firstNumber + secondNumber;
         System.out.println("The total add is: " + total);
+    }
+    public static void delete()
+    {
+        System.out.println("Please enter your first number to delete: ");
+        Scanner inputs = new Scanner(System.in);
+        int firstNumber = inputs.nextInt();
+
+        System.out.println("Please enter your second number to delete: ");
+        int secondNumber = inputs.nextInt();
+
+        int total = firstNumber - secondNumber;
+        System.out.println("The total answer is: "+ total);
     }
 }
 
