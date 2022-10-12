@@ -42,5 +42,6 @@ public class Calculator {
         int total = firstNumber - secondNumber;
         System.out.println("The total answer is: "+ total);
     }
+
 }
 
